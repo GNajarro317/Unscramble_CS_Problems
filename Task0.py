@@ -14,9 +14,6 @@ with open('calls.csv', 'r') as f:
 """
 TASK 0:
 What is the first record of texts and what is the last record of calls?
-Print messages:
-"First record of texts, <incoming number> texts <answering number> at time <time>"
-"Last record of calls, <incoming number> calls <answering number> at time <time>, lasting <during> seconds"
 """
 # Pulls directly from the first row of the text list and prints the calling number, recieving number, and date stamp
 for list in texts:
