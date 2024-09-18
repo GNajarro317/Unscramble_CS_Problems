@@ -1,0 +1,39 @@
+Task0:
+The time complexity of this code is O(n), where n is the number of records in the texts and calls CSV files.
+This is because the code iterates through each record in the texts and calls list once to print the first and last records.
+
+The space complextiy of this code is also O(n) as it stores all the records from the CSV files in memory as lists.
+
+Task1:
+The time complexity of this code is O(n + m) where n is the number of rows in the texts.csv file and m is the number of rows in the calls.csv file. 
+This is because we are reading each row from both files and extracting the numbers from the first and second columns, then combining them into a single list. 
+The Counter function also has a time complexity of O(n) where n is the number of elements in the list.
+
+The space complexity of this code is O(n + m) as well, where n is the number of rows in the texts.csv file and m is the number of rows in the calls.csv file. 
+This is because we are storing the numbers from both files in separate lists (text_numbers and call_numbers) before combining them into a single list 
+(all_numbers) to count the unique numbers.
+
+Task2:
+The time complexity of this code is O(n), where n is the number of rows in the calls dataset. 
+This is because we iterate through each row in the calls dataset once to calculate the total duration for each caller and receiver.
+
+The space complexity of this code is also O(n), where n is the number of unique callers and receivers in the calls dataset. 
+This is because we store the total duration for each caller and receiver in the call_duration dictionary, which can potentially contain all unique callers and receivers.
+
+Task3:
+The code snippet has two main loops. The first loop iterates through the 'calls' list to extract area codes, which has a time complexity of O(n). 
+The second loop iterates through the 'calls' list again to calculate the percentage of calls from fixed lines in Bangalore to other fixed lines in Bangalore, which also has a time complexity of O(n). 
+Therefore, the overall time complexity is O(n log n) due to the nested loops.
+
+Task4:
+The code first creates sets of phone numbers from the texts and calls files, which would take O(n) time.
+Then, it performs set operations and sorting on these sets, which would take O(n log n) time due to the sorting operation.
+Therefore, the overall time complexity is O(n log n).	
+
+
+Rough Numbers:
+calls:
+5213 rows * 4 columns = 20852
+texts:
+9072 rows * 3 columns = 27216
+calls + texts = 48068
