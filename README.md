@@ -1,19 +1,23 @@
 ### Date created
 Date project was created: 6-3-2024
-Date README file was last updated: 9-18-2024
+Date README file was last updated: 12-8-2025
 
 ### Project Title
-Unscramble Computer Science Problems
+Telecom Log Analysis
 
 ### Description
-In this project, I completed five tasks using a fabricated dataset of calls and texts exchanged during September 2016. I utilized Python to analyze the data and answer questions regarding the texts and calls contained in the dataset. Additionally, I performed a runtime analysis of my solutions to determine their efficiency.
+This project analyzes a fabricated dataset of phone calls and text messages exchanged during September 2016.
+Using Python, I examined the data to answer specific questions about calling and texting behavior, while also performing runtime analyses to assess the efficiency of each solution.
+
+This project reinforced practical skills in data processing, problem decomposition, and algorithmic thinking.
 
 The project involved:
 
-* Analyzing data from calls and texts to extract insights.
-* Breaking down problems into inputs and outputs for effective coding.
-* Conducting an efficiency analysis of the solutions.
-* Reinforcing my Python skills in a practical scenario.
+* Analyzing call and text records to extract meaningful insights
+* Identifying patterns in communication behavior
+* Breaking down problems into clear inputs and outputs
+* Evaluating algorithmic efficiency with runtime analysis
+* Strengthening Python skills through applied practice
 
 ### Files used:
 Text data (texts.csv) with columns for sending and receiving telephone numbers and the timestamp of each text.
